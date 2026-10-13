@@ -1,4 +1,7 @@
 import { site, waLink } from "@/data/site";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
 
 export function Footer() {
   return (
@@ -9,20 +12,43 @@ export function Footer() {
           <p className="mt-2 max-w-sm text-sm text-white/50">{site.tagline}</p>
         </div>
         <div className="space-y-2 text-sm text-white/70">
-          <p>{site.city}</p>
-          <a className="block hover:text-white" href={waLink()}>
-            WhatsApp
-          </a>
+          
+          {/* Location */}
+          <div className="flex items-center gap-2">
+            <FaLocationDot size={18} />
+            <span>{site.city}</span>  
+          </div>
+          
+
+          {/* WhatsApp */}
           <a
-            className="block hover:text-white"
+            className="flex items-center gap-2 transition hover:text-white"
+            href={waLink()}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaWhatsapp size={20} />
+            <span>WhatsApp</span>
+          </a>
+
+          {/* Instagram */}
+          <a
+            className="flex items-center gap-2 transition hover:text-white"
             href={`https://instagram.com/${site.instagram}`}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            @{site.instagram}
+            <FaInstagram size={20} />
+            <span>@{site.instagram}</span>
           </a>
-          <a className="block hover:text-white" href={`mailto:${site.email}`}>
-            {site.email}
+
+          {/* Email */}
+          <a
+            className="flex items-center gap-2 transition hover:text-white"
+            href={`mailto:${site.email}`}
+          >
+            <MdEmail size={21} />
+            <span>{site.email}</span>
           </a>
         </div>
       </div>

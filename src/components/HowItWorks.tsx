@@ -12,7 +12,7 @@ const steps = [
   {
     n: "03",
     title: "DP / pelunasan",
-    body: "Transfer ke rekening atas nama Jastipsy. Bukti dikirim ke admin.",
+    body: "Transfer ke rekening atas nama jastipisy. Bukti dikirim ke admin.",
   },
   {
     n: "04",

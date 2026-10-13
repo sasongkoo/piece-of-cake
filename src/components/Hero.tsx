@@ -52,7 +52,7 @@ export function Hero() {
             <div className="rounded-2xl border border-dashed border-white/25 bg-[#0d0b16] p-6">
               <div className="flex items-center justify-between text-xs text-white/50">
                 <span>E-TICKET</span>
-                <span>JASTIPSY PASS</span>
+                <span>jastipisy PASS</span>
               </div>
               <p className="font-display mt-8 text-3xl font-bold">Your Name</p>
               <p className="mt-1 text-sm text-fuchsia-200">GATE A · SEAT 12</p>

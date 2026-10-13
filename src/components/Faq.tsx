@@ -1,6 +1,6 @@
 const faqs = [
   {
-    q: "Jastipsy official ticket vendor?",
+    q: "jastipisy official ticket vendor?",
     a: "Bukan. Kami jasa titip (jastip): belikan tiket resmi atas permintaan kamu, plus fee yang transparan.",
   },
   {

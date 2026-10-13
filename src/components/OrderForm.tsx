@@ -23,7 +23,7 @@ export function OrderForm() {
       ? `${selected.artist} — ${selected.title}`
       : eventId;
     const message = [
-      "Halo Jastipsy, saya mau order tiket.",
+      "Halo jastipisy, saya mau order tiket.",
       `Nama: ${name}`,
       `WA: ${phone}`,
       `Event: ${eventLabel}`,

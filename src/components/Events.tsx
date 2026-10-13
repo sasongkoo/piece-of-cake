@@ -72,7 +72,7 @@ export function Events() {
                 ) : (
                   <a
                     href={waLink(
-                      `Halo Jastipsy, saya mau order tiket ${event.artist} — ${event.title} (${event.city}).`,
+                      `Halo jastipisy, saya mau order tiket ${event.artist} — ${event.title} (${event.city}).`,
                     )}
                     target="_blank"
                     rel="noreferrer"
